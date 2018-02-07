@@ -8,7 +8,7 @@ It was created using three seperate HTML files and one CSS file for the formatti
 
 1) The below screen shot is the index page/home page.
 
-![alt text](images/index.png)
+![alt text](images/indexss.png)
 
 2)  The below screen shot is the portfolio page.
 
