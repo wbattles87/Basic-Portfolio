@@ -7,58 +7,63 @@
 </head>
 <body>
 
-<div class="entireheader">
-	<div class="headersectionleft">
-		<h2> Will Battles </h2>
-	</div>
-	<div class="headersectionright">
-		<div class="link1">
-			<a href="index.html"> About </a>
+	<header id="entireheader">
+		<div class="container">
+			<a href="index.html" id="headername"> Will Battles </a>
+
+			<!-- This is the nav bar section -->
+			<nav>
+				<a href="index.html"> Home </a>
+				<a href="portfolio.html"> Portfolio </a>
+				<a href="contact.html"> Contact Me </a>
+			</nav>
 		</div>
-		<div class="link2">
-			<a href="portfolio.html"> Portfolio </a>
+	</header>
+
+	<div class="container" id="main-container">
+		<div class="mainsection">
+			<h1>Contact</h1>
+
+			<form id="contact-form">
+				<ul>
+					<li>
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" placeholder="John Smith" required="required">
+					</li>
+					<li>
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+					</li>
+					<li>
+						<label for="message">Message</label>
+						<textarea id="message" name="message" required="required"></textarea>
+					</li>
+				</ul>
+				<input type="submit">
+			</form>
 		</div>
-		<div class="link3">
-			<a href="contact.html"> Contact </a>
-		</div>		
+
+		<div class="Connectsquare">
+			<h2> Connect with Me </h2>
+			<div class="connectionlinks">
+				<a href="#">
+					<img src="images/github.png" class="social" alt="GitHub" />
+				</a>
+				<a href="#">
+					<img src="images/linkedin.png" class="social" alt="LinkedIn" />
+				</a>
+				<a href="#">
+					<img src="images/stackoverflow.png" class="social" alt="Stack Overflow" />
+				</a>
+			</div>
+		</div>
 	</div>
-</div>
 
-<div class="headerbottomborder">
-	
-</div>
-
-<div class="AboutMe">
-	<div class="aboutmetitle">
-		Contact
-	</div>
-	<div class="paragraph">
-			
-
-	</div>
-</div>
-
-
-
-
-
-<div class="Connectsquare">
-	<div class="connectwithme">
-		Connect with Me
-	</div>
-	<div class="connectionlinks">
-		<a href="https://github.com/" target="_blank"> <img src="images/github.png" width= "80px", height="80px"></a>
-		<a href="https://linkedin.com" target="_blank"> <img src="images/linkedin.png" width= "80px", height="80px"></a>
-		<a href="htpps://stackoverflow.com" target="_blank"> <img src="images/stackoverflow.png" width= "80px", height="80px"></a>
-	</div>
-</div>
-
-<div class="footertopborder">
-</div>
-
-<div class="footer">
-	©Copyright 2017 Will Battles
-</div>
+	<footer>
+		<div class="container">
+			©Copyright 2017 Will Battles
+		</div>
+	</footer>
 
 </body>
 </html>

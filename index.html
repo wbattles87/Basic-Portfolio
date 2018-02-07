@@ -10,63 +10,67 @@
 </head>
 <body>
 
-<div class="entireheader">
-	<div class="headersectionleft">
-		<h2> Will Battles </h2>
-	</div>
-	<div class="headersectionright">
-		<div class="link1">
-			<a href="index.html"> About </a>
-		</div>
-		<div class="link2">
+<!-- This is the header class that contains my name and the nav bar with 3 links -->	
+<header id="entireheader">
+	<div class="container">
+		<a href="index.html" id="headername"> Will Battles </a>
+
+		<!-- This is the nav bar section -->
+		<nav>
+			<a href="index.html"> Home </a>
 			<a href="portfolio.html"> Portfolio </a>
-		</div>
-		<div class="link3">
-			<a href="contact.html"> Contact </a>
-		</div>		
+			<a href="contact.html"> Contact Me </a>
+		</nav>
 	</div>
-</div>
+</header>
 
-<div class="headerbottomborder">
+<!-- This is the main body section of the index.html  It will have floats, with 2 portions, 1 being the picture and the second being the paragraph -->
+<div class= "container" id="mainbody">
 	
-</div>
-
-<div class="AboutMe">
 	<div class="aboutmetitle">
 		About Me
 	</div>
-			<div class="paragraph">
-			<img src="images/profile.jpg" width= "200px", height="200px"
-			style= "float: left"; padding-right= "200px", margin-bottom= "200px" >
-				My Name is Will Battles and I am currently working through the UT Coding bootcamp classes.  I have two bachelor degrees, one in Maritime Business Administration
-				and one in Computer Engineering.  Currently I have experience in C, Java, and Python and now I am working through HTML, CSS, and Bootstrap.  Im an avid learner 
-				and pretty easy going and just ready to learn.  
-				<br><br>
-				While I like coding and figuring out my problems, I also like being outside and enjoy sports and games.  I am 
-				a big time Houston fan including Texans, Rockets and Astros and go to as many games as possible!
-			</div>
-	</div>
 
-</div>
-
-<div class="Connectsquare">
-	<div class="connectwithme">
-		Connect with Me
-	</div>
-	<div class="connectionlinks">
-		<a href="https://github.com/" target="_blank"> <img src="images/github.png" width= "80px", height="80px"></a>
-		<a href="https://linkedin.com" target="_blank"> <img src="images/linkedin.png" width= "80px", height="80px"></a>
-		<a href="htpps://stackoverflow.com" target="_blank"> <img src="images/stackoverflow.png" width= "80px", height="80px"></a>
-	</div>
-</div>
-
-<div class="footertopborder">
+	<!-- this contains my profile pic and the paragraph containing my intro and info -->
+	<div class="container" id="main-container">
+		<div class="mainsection">
+			<img src="images/profile.jpg" class="mypic">
+			<p>
+				Hi there!  As you may be able to notice, my name is Will Battles and welcome to my Basic Portfolio Page.
+				This is the first of many pages I will be creating for the UT Coding Bootcamp class and this was made using
+				just HTML and CSS frameworks.
+				<br>
+				<br>
+				So about me!  I have two bachelor degrees, one in business from Texas A&M at Galveston and a Computer Engineering
+				degree from UHCL.  I went back for the second degree because I wanted a change and I loved computers so it seemed
+				like a natural fit.  Now that I am attending this bootcamp, I hope to have the necessary skills when I leave to be able
+				to attain a front end or full stack position.
+				<br>
+				<br>
+				In this page, you will the links to my contact info as well as my LinkedIn and GitHub pages!
+			</p>
+		</div>
 	
+		<!-- This is the second portion of the main body section.  Contains all the links for my connections -->
+		<div class="Connectsquare">
+			<h2> Connect with Me </h2>
+			<div class="connectionlinks">
+				<a href="#"><img src="images/github.png" class="social" alt="GitHub" /></a>
+				<a href="#"><img src="images/linkedin.png" class="social" alt="LinkedIn" /></a>
+				<a href="#"><img src="images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
+			</div>	
+		</div>
+	
+	</div>
 </div>
 
-<div class="footer">
-	©Copyright 2017 Will Battles
-</div>
+
+<!-- Contains only the footer for the page, Will be the same regardless of the page -->
+<footer>
+	<div class="container">
+		©Copyright 2017 Will Battles
+	</div>
+</footer>
 
 </body>
 </html>
